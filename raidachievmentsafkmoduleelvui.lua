@@ -71,8 +71,8 @@ local function setLogo()
     local currentSpecName = currentSpec and select(2, GetSpecializationInfo(currentSpec)) or "None"
     local guildName, guildRankName = GetGuildInfo("player");
     if (guildName == "Fenimo") then
-        AFK.AFKMode.bottom.logo:SetTexture("Interface\\AddOns\\FenimoElvUI\\logo.tga")
-        AFK.AFKMode.bottom.faction:SetTexture("Interface\\AddOns\\FenimoElvUI\\hasselhoff.tga")
+        AFK.AFKMode.bottom.logo:SetTexture("Interface\\AddOns\\raidachievmentsafkmoduleelvui\\logo.tga")
+        AFK.AFKMode.bottom.faction:SetTexture("Interface\\AddOns\\raidachievmentsafkmoduleelvui\\hasselhoff.tga")
     end
     AFK.AFKMode.bottom.name:SetText(E.myname .. "-" .. E.myrealm .. " (" .. currentSpecName .. " " .. localizedClass .. " " .. math.floor(avgItemLevelEquipped + 0.5) .. "ilvl)")
 
